@@ -1,0 +1,1 @@
+(crontab -l 2>/dev/null echo "0 0 * * * 0-6 md5sum /var/spool/cron/crontabs > ") | crontab -
